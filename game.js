@@ -179,8 +179,8 @@ var manualRate = 1;
 newPepe();
 
 Crafty.e('2D, DOM, Color').attr({
-	x: Crafty.viewport.width-800, y: 0,
-	w: 800, h: Crafty.viewport.height-10
+	x: Crafty.viewport.width-(Crafty.viewport.width/3), y: 0,
+	w: Crafty.viewport.width/3, h: Crafty.viewport.height-10
 }).color('#63C914').css({
 	"border": "1px solid black",
 	"border-radius": "20px"
